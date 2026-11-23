@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.box {
+    background-color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-input {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.form-input button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+}
+
+li span {
+    flex: 1;
+    margin-left: 10px;
+}
+
+li.selesai span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button.btn-edit {
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+button.btn-simpan {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+button.btn-hapus {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
